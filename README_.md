@@ -127,6 +127,10 @@ or if you want to use all books for a single speaker:
 This should take no longer than a **few minutes.**
 
 # Training:
+
+## CUDA_VISIBLE_DEVICES=1,2,3,4 python train.py --model='Tacotron-2'
+## CUDA_VISIBLE_DEVICES=5,6,7,8 python train.py --model='WaveNet'
+
 To **train both models** sequentially (one after the other):
 
 > python train.py --model='Tacotron-2'
